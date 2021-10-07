@@ -1,24 +1,25 @@
-# one = int(input("Enter your first value : "))
-# two = int(input("Enter the second value : "))
-# op = input("Enter the operator : ")
+one = int(input("Enter your first value : "))
+two = int(input("Enter the second value : "))
+op = input("Enter the operator : ")
 
-# # This makes it a global variable
-# result = 0
+# This makes it a global variable
+result = 0
 
-# if op == '+':
-#     result = one + two
-# elif op == '-':
-#     result = abs(one - two)
-# elif op == '*':
-#     result = one*two
-# else:
-#     result = one/two
+if op == '+':
+    result = one + two
+elif op == '-':
+    result = abs(one - two)
+elif op == '*':
+    result = one*two
+else:
+    result = one/two
 
-# print(result)
+print(result)
 
 try:
     x = int(input("Enter a value : "))
     print(x)
-except ValueError:
+except:
     print("Something went wrong, please try again")
-    print(ValueError)
+finally:
+    print("We are done")

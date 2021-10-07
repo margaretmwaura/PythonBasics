@@ -1,10 +1,10 @@
-# name = input('Enter your name : ')
-# age = int(input('Enter your age : '))
-# print("Your name is " + name + " and your age is " , age)
+name = input('Enter your name : ')
+age = int(input('Enter your age : '))
+print("Your name is " + name + " and your age is " , age)
 
-# userinput = input("Enter your gender : ")
-# userinput = userinput.replace("boy", "girl")
-# print(userinput)
+userinput = input("Enter your gender : ")
+userinput = userinput.replace("boy", "girl")
+print(userinput)
 
 name = "I am Maggie Mwaura"
 age = 25
